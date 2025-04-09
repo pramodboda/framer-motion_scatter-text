@@ -122,8 +122,11 @@ const InteractiveScatterText: React.FC<InteractiveScatterTextProps> = ({
       newPositions[index] = { 
         ...newPositions[index], 
         isHovered: true,
-        targetX: (Math.random() - 0.5) * scatterDistance,
-        targetY: (Math.random() - 0.5) * scatterDistance
+        // targetX: (Math.random() - 0.5) * scatterDistance,
+        // targetY: (Math.random() - 0.5) * scatterDistance
+
+        targetX: (Math.random() - 1) * scatterDistance,
+        targetY: (Math.random() - 1) * scatterDistance
       };
       return newPositions;
     });
