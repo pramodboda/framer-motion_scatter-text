@@ -5,7 +5,6 @@ import './App.css'
 
 import InteractiveScatterText from "./components/animations/InteractiveScatterText"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -29,7 +28,7 @@ function App() {
       </div>
       <div style={{ marginTop: '3rem' }}>
         <InteractiveScatterText 
-          text="don’t rely on AI or agencies — every solution is handcrafted with care, understanding your real problems to deliver unique, effective results." 
+          text="Don’t rely on AI or fake agency promises — We bring real solutions that work. every solution is handcrafted with care, understanding your real problems to deliver unique, effective results." 
           initialDelay={1000} 
           scatterDistance={80}
           animationDuration={30}
