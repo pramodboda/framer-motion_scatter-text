@@ -27,6 +27,14 @@ function App() {
           animationDuration={30}
         />
       </div>
+      <div style={{ marginTop: '3rem' }}>
+        <InteractiveScatterText 
+          text="don’t rely on AI or agencies — every solution is handcrafted with care, understanding your real problems to deliver unique, effective results." 
+          initialDelay={1000} 
+          scatterDistance={80}
+          animationDuration={30}
+        />
+      </div>
     </div>
     </>
   )

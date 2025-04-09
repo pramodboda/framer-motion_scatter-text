@@ -209,7 +209,7 @@ const InteractiveScatterText: React.FC<InteractiveScatterTextProps> = ({
           marginTop: '1rem'
         }}
       >
-        Reset Positions
+        We fix your problems
       </button>
     </div>
   );
