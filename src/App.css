@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+/* .inter-tight-<uniquifier> {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 .logo {
   height: 6em;
   padding: 1.5em;

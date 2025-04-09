@@ -12,7 +12,8 @@ function App() {
     <div style={{ padding: '2rem' }}>
       <h1>Interactive Scatter Text</h1>
       <InteractiveScatterText 
-        text="TypeScript Animation" 
+        text="Interactive Scatter Text Like react framer-motion
+        " 
         initialDelay={1000} 
         scatterDistance={120}
         animationDuration={40}
